@@ -8,7 +8,6 @@ app = Flask(__name__)
 global requests_log
 requests_log = {}
 
-global somethig_something
 OK_MESSAGE = 'OK'
 ERROR_MESSAGE = 'Service Unavailable'
 
