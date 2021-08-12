@@ -9,8 +9,8 @@ global requests_log
 requests_log = {}
 
 global somethig_something
-OK_MESSAGE = 'All Good'
-ERROR_MESSAGE = 'Something Happened'
+OK_MESSAGE = 'OK'
+ERROR_MESSAGE = 'Service Unavailable'
 
 logger = logging.getLogger()
 handler = logging.StreamHandler()
@@ -55,4 +55,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', use_reloader=True, port=80)
-                                       
+
